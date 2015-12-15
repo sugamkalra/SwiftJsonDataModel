@@ -15,6 +15,11 @@
 		156572091C1FDF0F004EC23A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156572071C1FDF0F004EC23A /* LaunchScreen.storyboard */; };
 		156572141C1FDF0F004EC23A /* SwiftyJsonDataModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156572131C1FDF0F004EC23A /* SwiftyJsonDataModelsTests.swift */; };
 		1565721F1C1FDF0F004EC23A /* SwiftyJsonDataModelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565721E1C1FDF0F004EC23A /* SwiftyJsonDataModelsUITests.swift */; };
+		1565722F1C1FE057004EC23A /* CaneQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565722D1C1FE057004EC23A /* CaneQuality.swift */; };
+		156572301C1FE057004EC23A /* CaneLabSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1565722E1C1FE057004EC23A /* CaneLabSample.swift */; };
+		156572321C1FE081004EC23A /* GrowerCrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156572311C1FE081004EC23A /* GrowerCrop.swift */; };
+		156572341C1FE0C7004EC23A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156572331C1FE0C7004EC23A /* SwiftyJSON.swift */; };
+		156572361C1FE0DB004EC23A /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156572351C1FE0DB004EC23A /* HelperFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		1565721A1C1FDF0F004EC23A /* SwiftyJsonDataModelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyJsonDataModelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1565721E1C1FDF0F004EC23A /* SwiftyJsonDataModelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJsonDataModelsUITests.swift; sourceTree = "<group>"; };
 		156572201C1FDF0F004EC23A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1565722D1C1FE057004EC23A /* CaneQuality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaneQuality.swift; sourceTree = "<group>"; };
+		1565722E1C1FE057004EC23A /* CaneLabSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaneLabSample.swift; sourceTree = "<group>"; };
+		156572311C1FE081004EC23A /* GrowerCrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrowerCrop.swift; sourceTree = "<group>"; };
+		156572331C1FE0C7004EC23A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		156572351C1FE0DB004EC23A /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		156571FA1C1FDF0F004EC23A /* SwiftyJsonDataModels */ = {
 			isa = PBXGroup;
 			children = (
+				1565722C1C1FDF1C004EC23A /* DataModels */,
 				156571FB1C1FDF0F004EC23A /* AppDelegate.swift */,
 				156571FD1C1FDF0F004EC23A /* ViewController.swift */,
 				156571FF1C1FDF0F004EC23A /* Main.storyboard */,
@@ -126,6 +137,18 @@
 				156572201C1FDF0F004EC23A /* Info.plist */,
 			);
 			path = SwiftyJsonDataModelsUITests;
+			sourceTree = "<group>";
+		};
+		1565722C1C1FDF1C004EC23A /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				1565722D1C1FE057004EC23A /* CaneQuality.swift */,
+				1565722E1C1FE057004EC23A /* CaneLabSample.swift */,
+				156572311C1FE081004EC23A /* GrowerCrop.swift */,
+				156572331C1FE0C7004EC23A /* SwiftyJSON.swift */,
+				156572351C1FE0DB004EC23A /* HelperFunctions.swift */,
+			);
+			name = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1565722F1C1FE057004EC23A /* CaneQuality.swift in Sources */,
+				156572361C1FE0DB004EC23A /* HelperFunctions.swift in Sources */,
+				156572321C1FE081004EC23A /* GrowerCrop.swift in Sources */,
 				156571FE1C1FDF0F004EC23A /* ViewController.swift in Sources */,
+				156572301C1FE057004EC23A /* CaneLabSample.swift in Sources */,
 				156571FC1C1FDF0F004EC23A /* AppDelegate.swift in Sources */,
+				156572341C1FE0C7004EC23A /* SwiftyJSON.swift in Sources */,
 				156572041C1FDF0F004EC23A /* SwiftyJsonDataModels.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
